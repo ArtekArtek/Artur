@@ -1,14 +1,13 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "hash": "3498c1b3e0443b92775d3af8eab8174a",
     "content-hash": "9fd15c3a32e77852e072ddac246683aa",
     "packages": [
         {
-            "name": "beberlei/DoctrineExtensions",
+            "name": "beberlei/doctrineextensions",
             "version": "v1.0.17",
             "source": {
                 "type": "git",
@@ -67,7 +66,7 @@
                 "doctrine",
                 "orm"
             ],
-            "time": "2017-06-16 07:29:39"
+            "time": "2017-06-16T07:29:39+00:00"
         },
         {
             "name": "composer/ca-bundle",
@@ -126,7 +125,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2017-03-06 11:59:08"
+            "time": "2017-03-06T11:59:08+00:00"
         },
         {
             "name": "composer/installers",
@@ -221,7 +220,7 @@
                 "zend",
                 "zikula"
             ],
-            "time": "2015-02-18 17:17:01"
+            "time": "2015-02-18T17:17:01+00:00"
         },
         {
             "name": "csa/guzzle-bundle",
@@ -278,7 +277,7 @@
                 }
             ],
             "description": "A bundle integrating GuzzleHttp >= 4.0",
-            "time": "2015-11-17 00:02:55"
+            "time": "2015-11-17T00:02:55+00:00"
         },
         {
             "name": "curl/curl",
@@ -333,7 +332,7 @@
                 "curl",
                 "dot"
             ],
-            "time": "2015-04-09 16:29:25"
+            "time": "2015-04-09T16:29:25+00:00"
         },
         {
             "name": "defuse/php-encryption",
@@ -392,7 +391,7 @@
                 "security",
                 "symmetric key cryptography"
             ],
-            "time": "2016-10-10 15:20:26"
+            "time": "2016-10-10T15:20:26+00:00"
         },
         {
             "name": "doctrine/annotations",
@@ -460,7 +459,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2015-08-31 12:32:49"
+            "time": "2015-08-31T12:32:49+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -530,7 +529,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2015-12-19 05:03:47"
+            "time": "2015-12-19T05:03:47+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -596,7 +595,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2015-04-14 22:21:58"
+            "time": "2015-04-14T22:21:58+00:00"
         },
         {
             "name": "doctrine/common",
@@ -669,7 +668,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2015-12-25 13:10:16"
+            "time": "2015-12-25T13:10:16+00:00"
         },
         {
             "name": "doctrine/dbal",
@@ -740,7 +739,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2017-02-08 12:53:47"
+            "time": "2017-02-08T12:53:47+00:00"
         },
         {
             "name": "doctrine/doctrine-bundle",
@@ -818,7 +817,7 @@
                 "orm",
                 "persistence"
             ],
-            "time": "2015-08-31 14:47:06"
+            "time": "2015-08-31T14:47:06+00:00"
         },
         {
             "name": "doctrine/doctrine-cache-bundle",
@@ -906,7 +905,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2016-01-26 17:28:51"
+            "time": "2016-01-26T17:28:51+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -973,7 +972,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06 14:35:42"
+            "time": "2015-11-06T14:35:42+00:00"
         },
         {
             "name": "doctrine/instantiator",
@@ -1027,7 +1026,7 @@
                 "constructor",
                 "instantiate"
             ],
-            "time": "2015-06-14 21:17:01"
+            "time": "2015-06-14T21:17:01+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -1081,19 +1080,19 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2014-09-09 13:34:57"
+            "time": "2014-09-09T13:34:57+00:00"
         },
         {
             "name": "doctrine/orm",
             "version": "v2.5.6",
             "source": {
                 "type": "git",
-                "url": "https://github.com/doctrine/doctrine2.git",
+                "url": "https://github.com/doctrine/orm.git",
                 "reference": "e6c434196c8ef058239aaa0724b4aadb0107940b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/doctrine2/zipball/e6c434196c8ef058239aaa0724b4aadb0107940b",
+                "url": "https://api.github.com/repos/doctrine/orm/zipball/e6c434196c8ef058239aaa0724b4aadb0107940b",
                 "reference": "e6c434196c8ef058239aaa0724b4aadb0107940b",
                 "shasum": ""
             },
@@ -1157,7 +1156,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2016-12-18 15:42:34"
+            "time": "2016-12-18T15:42:34+00:00"
         },
         {
             "name": "geoip2/geoip2",
@@ -1208,7 +1207,7 @@
                 "geolocation",
                 "maxmind"
             ],
-            "time": "2017-01-31 17:28:48"
+            "time": "2017-01-31T17:28:48+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
@@ -1260,7 +1259,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-07-15 19:28:39"
+            "time": "2016-07-15T19:28:39+00:00"
         },
         {
             "name": "guzzlehttp/log-subscriber",
@@ -1313,7 +1312,7 @@
                 "log",
                 "plugin"
             ],
-            "time": "2014-10-13 03:31:43"
+            "time": "2014-10-13T03:31:43+00:00"
         },
         {
             "name": "guzzlehttp/ringphp",
@@ -1364,7 +1363,7 @@
                 }
             ],
             "description": "Provides a simple API and specification that abstracts away the details of HTTP into a single PHP function.",
-            "time": "2015-05-20 03:37:09"
+            "time": "2015-05-20T03:37:09+00:00"
         },
         {
             "name": "guzzlehttp/streams",
@@ -1414,7 +1413,7 @@
                 "Guzzle",
                 "stream"
             ],
-            "time": "2014-10-12 19:18:40"
+            "time": "2014-10-12T19:18:40+00:00"
         },
         {
             "name": "icanboogie/cldr",
@@ -1464,7 +1463,7 @@
                 "locale",
                 "territory"
             ],
-            "time": "2015-02-01 12:02:54"
+            "time": "2015-02-01T12:02:54+00:00"
         },
         {
             "name": "icanboogie/common",
@@ -1510,7 +1509,7 @@
             "keywords": [
                 "toolkit"
             ],
-            "time": "2014-10-21 12:06:36"
+            "time": "2014-10-21T12:06:36+00:00"
         },
         {
             "name": "icanboogie/datetime",
@@ -1560,7 +1559,7 @@
                 "time",
                 "timezone"
             ],
-            "time": "2015-01-27 21:04:04"
+            "time": "2015-01-27T21:04:04+00:00"
         },
         {
             "name": "incenteev/composer-parameter-handler",
@@ -1611,7 +1610,7 @@
             "keywords": [
                 "parameters management"
             ],
-            "time": "2015-11-10 17:04:01"
+            "time": "2015-11-10T17:04:01+00:00"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -1653,7 +1652,7 @@
                 "hashing",
                 "password"
             ],
-            "time": "2014-11-20 16:49:30"
+            "time": "2014-11-20T16:49:30+00:00"
         },
         {
             "name": "ircmaxell/random-lib",
@@ -1708,7 +1707,7 @@
                 "random-numbers",
                 "random-strings"
             ],
-            "time": "2016-09-07 15:52:06"
+            "time": "2016-09-07T15:52:06+00:00"
         },
         {
             "name": "ircmaxell/security-lib",
@@ -1754,7 +1753,7 @@
             ],
             "description": "A Base Security Library",
             "homepage": "https://github.com/ircmaxell/SecurityLib",
-            "time": "2015-03-20 14:31:23"
+            "time": "2015-03-20T14:31:23+00:00"
         },
         {
             "name": "jakeasmith/http_build_url",
@@ -1787,7 +1786,7 @@
                 }
             ],
             "description": "Provides functionality for http_build_url() to environments without pecl_http.",
-            "time": "2017-05-01 15:36:40"
+            "time": "2017-05-01T15:36:40+00:00"
         },
         {
             "name": "jdorn/sql-formatter",
@@ -1837,7 +1836,7 @@
                 "highlight",
                 "sql"
             ],
-            "time": "2014-01-12 16:20:24"
+            "time": "2014-01-12T16:20:24+00:00"
         },
         {
             "name": "matthiasmullie/minify",
@@ -1897,7 +1896,7 @@
                 "minifier",
                 "minify"
             ],
-            "time": "2017-07-06 12:26:44"
+            "time": "2017-07-06T12:26:44+00:00"
         },
         {
             "name": "matthiasmullie/path-converter",
@@ -1946,7 +1945,7 @@
                 "paths",
                 "relative"
             ],
-            "time": "2017-01-26 08:54:49"
+            "time": "2017-01-26T08:54:49+00:00"
         },
         {
             "name": "maxmind-db/reader",
@@ -2001,7 +2000,7 @@
                 "geolocation",
                 "maxmind"
             ],
-            "time": "2017-01-19 23:49:38"
+            "time": "2017-01-19T23:49:38+00:00"
         },
         {
             "name": "maxmind/web-service-common",
@@ -2047,7 +2046,7 @@
             ],
             "description": "Internal MaxMind Web Service API",
             "homepage": "https://github.com/maxmind/web-service-common-php",
-            "time": "2017-07-06 17:48:21"
+            "time": "2017-07-06T17:48:21+00:00"
         },
         {
             "name": "mobiledetect/mobiledetectlib",
@@ -2099,7 +2098,7 @@
                 "mobile detector",
                 "php mobile detect"
             ],
-            "time": "2017-03-29 13:59:30"
+            "time": "2017-03-29T13:59:30+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -2177,7 +2176,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2017-06-19 01:22:40"
+            "time": "2017-06-19T01:22:40+00:00"
         },
         {
             "name": "mrclay/minify",
@@ -2222,7 +2221,7 @@
             ],
             "description": "Minify is a PHP5 app that helps you follow several rules for client-side performance. It combines multiple CSS or Javascript files, removes unnecessary whitespace and comments, and serves them with gzip encoding and optimal client-side cache headers",
             "homepage": "http://code.google.com/p/minify/",
-            "time": "2017-06-08 17:49:34"
+            "time": "2017-06-08T17:49:34+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -2273,7 +2272,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2016-09-16 12:04:44"
+            "time": "2016-09-16T12:04:44+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -2321,7 +2320,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2017-03-13 16:27:32"
+            "time": "2017-03-13T16:27:32+00:00"
         },
         {
             "name": "pear/archive_tar",
@@ -2387,7 +2386,7 @@
                 "archive",
                 "tar"
             ],
-            "time": "2017-06-11 17:28:11"
+            "time": "2017-06-11T17:28:11+00:00"
         },
         {
             "name": "pear/console_getopt",
@@ -2434,7 +2433,7 @@
                 }
             ],
             "description": "More info available on: http://pear.php.net/package/Console_Getopt",
-            "time": "2015-07-20 20:28:12"
+            "time": "2015-07-20T20:28:12+00:00"
         },
         {
             "name": "pear/pear-core-minimal",
@@ -2478,7 +2477,7 @@
                 }
             ],
             "description": "Minimal set of PEAR core files to be used as composer dependency",
-            "time": "2017-02-28 16:46:11"
+            "time": "2017-02-28T16:46:11+00:00"
         },
         {
             "name": "pear/pear_exception",
@@ -2533,7 +2532,7 @@
             "keywords": [
                 "exception"
             ],
-            "time": "2015-02-10 20:07:52"
+            "time": "2015-02-10T20:07:52+00:00"
         },
         {
             "name": "phpoffice/phpexcel",
@@ -2590,7 +2589,8 @@
                 "xls",
                 "xlsx"
             ],
-            "time": "2014-03-02 15:22:49"
+            "abandoned": "phpoffice/phpspreadsheet",
+            "time": "2014-03-02T15:22:49+00:00"
         },
         {
             "name": "prestashop/blockreassurance",
@@ -2622,7 +2622,7 @@
             ],
             "description": "PrestaShop module blockreassurance",
             "homepage": "https://github.com/PrestaShop/blockreassurance",
-            "time": "2017-06-29 07:28:29"
+            "time": "2017-06-29T07:28:29+00:00"
         },
         {
             "name": "prestashop/contactform",
@@ -2639,12 +2639,12 @@
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.2"
+                "php": ">=5.4.0"
             },
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -2654,7 +2654,7 @@
             ],
             "description": "PrestaShop module contactform",
             "homepage": "https://github.com/PrestaShop/contactform",
-            "time": "2017-06-23 09:48:19"
+            "time": "2017-06-23T09:48:19+00:00"
         },
         {
             "name": "prestashop/dashactivity",
@@ -2686,7 +2686,7 @@
             ],
             "description": "PrestaShop module dashactivity",
             "homepage": "https://github.com/PrestaShop/dashactivity",
-            "time": "2017-02-01 16:31:16"
+            "time": "2017-02-01T16:31:16+00:00"
         },
         {
             "name": "prestashop/dashgoals",
@@ -2708,7 +2708,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -2718,7 +2718,7 @@
             ],
             "description": "PrestaShop module dashgoals",
             "homepage": "https://github.com/PrestaShop/dashgoals",
-            "time": "2017-02-01 16:31:33"
+            "time": "2017-02-01T16:31:33+00:00"
         },
         {
             "name": "prestashop/dashproducts",
@@ -2740,7 +2740,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -2750,7 +2750,7 @@
             ],
             "description": "PrestaShop module dashproducts",
             "homepage": "https://github.com/PrestaShop/dashproducts",
-            "time": "2017-02-20 15:04:07"
+            "time": "2017-02-20T15:04:07+00:00"
         },
         {
             "name": "prestashop/dashtrends",
@@ -2782,7 +2782,7 @@
             ],
             "description": "PrestaShop module dashtrends",
             "homepage": "https://github.com/PrestaShop/dashtrends",
-            "time": "2017-02-20 10:23:54"
+            "time": "2017-02-20T10:23:54+00:00"
         },
         {
             "name": "prestashop/graphnvd3",
@@ -2814,7 +2814,7 @@
             ],
             "description": "PrestaShop module graphnvd3",
             "homepage": "https://github.com/PrestaShop/graphnvd3",
-            "time": "2017-02-22 11:02:31"
+            "time": "2017-02-22T11:02:31+00:00"
         },
         {
             "name": "prestashop/gridhtml",
@@ -2846,7 +2846,7 @@
             ],
             "description": "PrestaShop module gridhtml",
             "homepage": "https://github.com/PrestaShop/gridhtml",
-            "time": "2017-02-22 11:03:13"
+            "time": "2017-02-22T11:03:13+00:00"
         },
         {
             "name": "prestashop/pagesnotfound",
@@ -2878,7 +2878,7 @@
             ],
             "description": "PrestaShop module pagesnotfound",
             "homepage": "https://github.com/PrestaShop/pagesnotfound",
-            "time": "2017-02-20 11:14:52"
+            "time": "2017-02-20T11:14:52+00:00"
         },
         {
             "name": "prestashop/ps_banner",
@@ -2900,7 +2900,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -2910,7 +2910,7 @@
             ],
             "description": "PrestaShop module ps_banner",
             "homepage": "https://github.com/PrestaShop/ps_banner",
-            "time": "2017-05-09 09:57:07"
+            "time": "2017-05-09T09:57:07+00:00"
         },
         {
             "name": "prestashop/ps_categorytree",
@@ -2942,7 +2942,7 @@
             ],
             "description": "PrestaShop category tree links",
             "homepage": "https://github.com/PrestaShop/ps_categorytree",
-            "time": "2017-02-01 09:28:43"
+            "time": "2017-02-01T09:28:43+00:00"
         },
         {
             "name": "prestashop/ps_checkpayment",
@@ -2974,7 +2974,7 @@
             ],
             "description": "PrestaShop module ps_checkpayment",
             "homepage": "https://github.com/PrestaShop/ps_checkpayment",
-            "time": "2017-02-22 08:00:01"
+            "time": "2017-02-22T08:00:01+00:00"
         },
         {
             "name": "prestashop/ps_contactinfo",
@@ -3006,7 +3006,7 @@
             ],
             "description": "PrestaShop module ps_contactinfo",
             "homepage": "https://github.com/PrestaShop/ps_contactinfo",
-            "time": "2017-07-06 13:55:59"
+            "time": "2017-07-06T13:55:59+00:00"
         },
         {
             "name": "prestashop/ps_currencyselector",
@@ -3025,10 +3025,14 @@
             "require": {
                 "php": ">=5.4"
             },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.15.1",
+                "prestashop/php-dev-tools": "^2"
+            },
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -3038,7 +3042,7 @@
             ],
             "description": "PrestaShop module ps_currencyselector",
             "homepage": "https://github.com/PrestaShop/ps_currencyselector",
-            "time": "2017-02-01 09:31:53"
+            "time": "2017-02-01T09:31:53+00:00"
         },
         {
             "name": "prestashop/ps_customeraccountlinks",
@@ -3070,7 +3074,7 @@
             ],
             "description": "PrestaShop module ps_customeraccountlinks",
             "homepage": "https://github.com/PrestaShop/ps_customeraccountlinks",
-            "time": "2017-07-06 13:53:20"
+            "time": "2017-07-06T13:53:20+00:00"
         },
         {
             "name": "prestashop/ps_customersignin",
@@ -3092,7 +3096,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -3102,7 +3106,7 @@
             ],
             "description": "PrestaShop - Customer 'Sign in' link",
             "homepage": "https://github.com/PrestaShop/ps_customersignin",
-            "time": "2017-02-01 16:40:08"
+            "time": "2017-02-01T16:40:08+00:00"
         },
         {
             "name": "prestashop/ps_customtext",
@@ -3124,7 +3128,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -3134,7 +3138,7 @@
             ],
             "description": "PrestaShop module ps_customtext",
             "homepage": "https://github.com/PrestaShop/ps_customtext",
-            "time": "2017-02-01 09:36:40"
+            "time": "2017-02-01T09:36:40+00:00"
         },
         {
             "name": "prestashop/ps_emailsubscription",
@@ -3156,7 +3160,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -3166,7 +3170,7 @@
             ],
             "description": "PrestaShop module ps_emailsubscription",
             "homepage": "https://github.com/PrestaShop/ps_emailsubscription",
-            "time": "2017-02-01 13:09:58"
+            "time": "2017-02-01T13:09:58+00:00"
         },
         {
             "name": "prestashop/ps_facetedsearch",
@@ -3201,7 +3205,7 @@
             ],
             "description": "PrestaShop module ps_facetedsearch",
             "homepage": "https://github.com/PrestaShop/ps_facetedsearch",
-            "time": "2017-02-01 13:18:25"
+            "time": "2017-02-01T13:18:25+00:00"
         },
         {
             "name": "prestashop/ps_featuredproducts",
@@ -3233,7 +3237,7 @@
             ],
             "description": "PrestaShop - Featured products",
             "homepage": "https://github.com/PrestaShop/ps_featuredproducts",
-            "time": "2017-02-01 13:20:33"
+            "time": "2017-02-01T13:20:33+00:00"
         },
         {
             "name": "prestashop/ps_imageslider",
@@ -3255,7 +3259,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -3265,7 +3269,7 @@
             ],
             "description": "PrestaShop - Image slider",
             "homepage": "https://github.com/PrestaShop/ps_imageslider",
-            "time": "2017-05-09 09:57:15"
+            "time": "2017-05-09T09:57:15+00:00"
         },
         {
             "name": "prestashop/ps_languageselector",
@@ -3297,7 +3301,7 @@
             ],
             "description": "PrestaShop module ps_languageselector",
             "homepage": "https://github.com/PrestaShop/ps_languageselector",
-            "time": "2017-03-27 15:19:45"
+            "time": "2017-03-27T15:19:45+00:00"
         },
         {
             "name": "prestashop/ps_legalcompliance",
@@ -3329,7 +3333,7 @@
             ],
             "description": "PrestaShop module ps_legalcompliance",
             "homepage": "https://github.com/PrestaShop/advancedeucompliance",
-            "time": "2017-03-22 14:36:36"
+            "time": "2017-03-22T14:36:36+00:00"
         },
         {
             "name": "prestashop/ps_linklist",
@@ -3361,7 +3365,7 @@
             ],
             "description": "PrestaShop - Link list",
             "homepage": "https://github.com/PrestaShop/ps_linklist",
-            "time": "2017-07-06 14:06:11"
+            "time": "2017-07-06T14:06:11+00:00"
         },
         {
             "name": "prestashop/ps_mainmenu",
@@ -3383,7 +3387,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -3393,7 +3397,7 @@
             ],
             "description": "PrestaShop - Main menu",
             "homepage": "https://github.com/PrestaShop/ps_mainmenu",
-            "time": "2017-02-14 08:11:36"
+            "time": "2017-02-14T08:11:36+00:00"
         },
         {
             "name": "prestashop/ps_searchbar",
@@ -3425,7 +3429,7 @@
             ],
             "description": "PrestaShop module ps_searchbar",
             "homepage": "https://github.com/PrestaShop/ps_searchbar",
-            "time": "2017-03-23 10:36:40"
+            "time": "2017-03-23T10:36:40+00:00"
         },
         {
             "name": "prestashop/ps_sharebuttons",
@@ -3457,7 +3461,7 @@
             ],
             "description": "PrestaShop module ps_sharebuttons",
             "homepage": "https://github.com/PrestaShop/ps_sharebuttons",
-            "time": "2017-02-01 13:19:34"
+            "time": "2017-02-01T13:19:34+00:00"
         },
         {
             "name": "prestashop/ps_shoppingcart",
@@ -3476,6 +3480,10 @@
             "require": {
                 "php": ">=5.4"
             },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.14",
+                "prestashop/php-coding-standards": "dev-master"
+            },
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
@@ -3489,7 +3497,7 @@
             ],
             "description": "PrestaShop module ps_shoppingcart",
             "homepage": "https://github.com/PrestaShop/ps_shoppingcart",
-            "time": "2017-03-23 10:36:49"
+            "time": "2017-03-23T10:36:49+00:00"
         },
         {
             "name": "prestashop/ps_socialfollow",
@@ -3521,7 +3529,7 @@
             ],
             "description": "PrestaShop module ps_socialfollow",
             "homepage": "https://github.com/PrestaShop/ps_socialfollow",
-            "time": "2017-02-01 13:17:47"
+            "time": "2017-02-01T13:17:47+00:00"
         },
         {
             "name": "prestashop/ps_wirepayment",
@@ -3553,7 +3561,7 @@
             ],
             "description": "PrestaShop module ps_wirepayment",
             "homepage": "https://github.com/PrestaShop/ps_wirepayment",
-            "time": "2017-03-16 10:24:34"
+            "time": "2017-03-16T10:24:34+00:00"
         },
         {
             "name": "prestashop/sekeywords",
@@ -3585,7 +3593,7 @@
             ],
             "description": "PrestaShop module sekeywords",
             "homepage": "https://github.com/PrestaShop/sekeywords",
-            "time": "2017-01-30 15:46:25"
+            "time": "2017-01-30T15:46:25+00:00"
         },
         {
             "name": "prestashop/smarty",
@@ -3636,7 +3644,7 @@
             ],
             "description": "PrestaShop Smarty version",
             "homepage": "https://github.com/PrestaShop/smarty",
-            "time": "2017-05-11 08:29:53"
+            "time": "2017-05-11T08:29:53+00:00"
         },
         {
             "name": "prestashop/statsbestcategories",
@@ -3668,7 +3676,7 @@
             ],
             "description": "PrestaShop module statsbestcategories",
             "homepage": "https://github.com/PrestaShop/statsbestcategories",
-            "time": "2017-01-30 15:06:32"
+            "time": "2017-01-30T15:06:32+00:00"
         },
         {
             "name": "prestashop/statsbestcustomers",
@@ -3690,7 +3698,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -3700,7 +3708,7 @@
             ],
             "description": "PrestaShop module statsbestcustomers",
             "homepage": "https://github.com/PrestaShop/statsbestcustomers",
-            "time": "2017-02-01 16:30:07"
+            "time": "2017-02-01T16:30:07+00:00"
         },
         {
             "name": "prestashop/statsbestmanufacturers",
@@ -3732,7 +3740,7 @@
             ],
             "description": "PrestaShop module statsbestmanufacturers",
             "homepage": "https://github.com/PrestaShop/statsbestmanufacturers",
-            "time": "2017-01-31 17:03:07"
+            "time": "2017-01-31T17:03:07+00:00"
         },
         {
             "name": "prestashop/statsbestproducts",
@@ -3764,7 +3772,7 @@
             ],
             "description": "PrestaShop module statsbestproducts",
             "homepage": "https://github.com/PrestaShop/statsbestproducts",
-            "time": "2017-01-30 16:33:56"
+            "time": "2017-01-30T16:33:56+00:00"
         },
         {
             "name": "prestashop/statsbestsuppliers",
@@ -3796,7 +3804,7 @@
             ],
             "description": "PrestaShop module statsbestsuppliers",
             "homepage": "https://github.com/PrestaShop/statsbestsuppliers",
-            "time": "2017-01-30 16:34:19"
+            "time": "2017-01-30T16:34:19+00:00"
         },
         {
             "name": "prestashop/statsbestvouchers",
@@ -3828,7 +3836,7 @@
             ],
             "description": "PrestaShop module statsbestvouchers",
             "homepage": "https://github.com/PrestaShop/statsbestvouchers",
-            "time": "2017-01-30 16:34:41"
+            "time": "2017-01-30T16:34:41+00:00"
         },
         {
             "name": "prestashop/statscarrier",
@@ -3860,7 +3868,7 @@
             ],
             "description": "PrestaShop module statscarrier",
             "homepage": "https://github.com/PrestaShop/statscarrier",
-            "time": "2017-01-30 17:03:51"
+            "time": "2017-01-30T17:03:51+00:00"
         },
         {
             "name": "prestashop/statscatalog",
@@ -3892,7 +3900,7 @@
             ],
             "description": "PrestaShop module statscatalog",
             "homepage": "https://github.com/PrestaShop/statscatalog",
-            "time": "2017-02-02 08:39:32"
+            "time": "2017-02-02T08:39:32+00:00"
         },
         {
             "name": "prestashop/statscheckup",
@@ -3924,7 +3932,7 @@
             ],
             "description": "PrestaShop module statscheckup",
             "homepage": "https://github.com/PrestaShop/statscheckup",
-            "time": "2017-01-30 17:29:08"
+            "time": "2017-01-30T17:29:08+00:00"
         },
         {
             "name": "prestashop/statsdata",
@@ -3956,7 +3964,7 @@
             ],
             "description": "PrestaShop module statsdata",
             "homepage": "https://github.com/PrestaShop/statsdata",
-            "time": "2017-01-31 17:00:41"
+            "time": "2017-01-31T17:00:41+00:00"
         },
         {
             "name": "prestashop/statsequipment",
@@ -3988,7 +3996,7 @@
             ],
             "description": "PrestaShop module statsequipment",
             "homepage": "https://github.com/PrestaShop/statsequipment",
-            "time": "2017-01-31 17:01:36"
+            "time": "2017-01-31T17:01:36+00:00"
         },
         {
             "name": "prestashop/statsforecast",
@@ -4010,7 +4018,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -4020,7 +4028,7 @@
             ],
             "description": "PrestaShop module statsforecast",
             "homepage": "https://github.com/PrestaShop/statsforecast",
-            "time": "2017-02-01 16:33:09"
+            "time": "2017-02-01T16:33:09+00:00"
         },
         {
             "name": "prestashop/statslive",
@@ -4052,7 +4060,7 @@
             ],
             "description": "PrestaShop module statslive",
             "homepage": "https://github.com/PrestaShop/statslive",
-            "time": "2017-02-02 08:18:06"
+            "time": "2017-02-02T08:18:06+00:00"
         },
         {
             "name": "prestashop/statsnewsletter",
@@ -4074,7 +4082,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -4084,7 +4092,7 @@
             ],
             "description": "PrestaShop module statsnewsletter",
             "homepage": "https://github.com/PrestaShop/statsnewsletter",
-            "time": "2017-02-01 16:29:27"
+            "time": "2017-02-01T16:29:27+00:00"
         },
         {
             "name": "prestashop/statsorigin",
@@ -4106,7 +4114,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -4116,7 +4124,7 @@
             ],
             "description": "PrestaShop module statsorigin",
             "homepage": "https://github.com/PrestaShop/statsorigin",
-            "time": "2017-02-01 16:33:56"
+            "time": "2017-02-01T16:33:56+00:00"
         },
         {
             "name": "prestashop/statspersonalinfos",
@@ -4138,7 +4146,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -4148,7 +4156,7 @@
             ],
             "description": "PrestaShop module statspersonalinfos",
             "homepage": "https://github.com/PrestaShop/statspersonalinfos",
-            "time": "2017-02-01 16:34:02"
+            "time": "2017-02-01T16:34:02+00:00"
         },
         {
             "name": "prestashop/statsproduct",
@@ -4170,7 +4178,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -4180,7 +4188,7 @@
             ],
             "description": "PrestaShop module statsproduct",
             "homepage": "https://github.com/PrestaShop/statsproduct",
-            "time": "2017-02-01 16:30:44"
+            "time": "2017-02-01T16:30:44+00:00"
         },
         {
             "name": "prestashop/statsregistrations",
@@ -4212,7 +4220,7 @@
             ],
             "description": "PrestaShop module statsregistrations",
             "homepage": "https://github.com/PrestaShop/statsregistrations",
-            "time": "2017-01-31 17:22:19"
+            "time": "2017-01-31T17:22:19+00:00"
         },
         {
             "name": "prestashop/statssales",
@@ -4244,7 +4252,7 @@
             ],
             "description": "PrestaShop module statssales",
             "homepage": "https://github.com/PrestaShop/statssales",
-            "time": "2017-01-31 17:23:19"
+            "time": "2017-01-31T17:23:19+00:00"
         },
         {
             "name": "prestashop/statssearch",
@@ -4276,7 +4284,7 @@
             ],
             "description": "PrestaShop module statssearch",
             "homepage": "https://github.com/PrestaShop/statssearch",
-            "time": "2017-01-31 17:23:39"
+            "time": "2017-01-31T17:23:39+00:00"
         },
         {
             "name": "prestashop/statsstock",
@@ -4308,7 +4316,7 @@
             ],
             "description": "PrestaShop module statsstock",
             "homepage": "https://github.com/PrestaShop/statsstock",
-            "time": "2017-01-31 17:24:06"
+            "time": "2017-01-31T17:24:06+00:00"
         },
         {
             "name": "prestashop/statsvisits",
@@ -4330,7 +4338,7 @@
             "type": "prestashop-module",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -4340,7 +4348,7 @@
             ],
             "description": "PrestaShop module statsvisits",
             "homepage": "https://github.com/PrestaShop/statsvisits",
-            "time": "2017-02-01 16:31:01"
+            "time": "2017-02-01T16:31:01+00:00"
         },
         {
             "name": "prestashop/translationtools-bundle",
@@ -4396,7 +4404,7 @@
                 "prestashop",
                 "translation"
             ],
-            "time": "2017-04-05 13:07:46"
+            "time": "2017-04-05T13:07:46+00:00"
         },
         {
             "name": "prestashop/welcome",
@@ -4424,7 +4432,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "license": [
-                "AFL - Academic Free License (AFL 3.0)"
+                "AFL-3.0"
             ],
             "authors": [
                 {
@@ -4434,20 +4442,20 @@
             ],
             "description": "Welcome module for PrestaShop helping the users to create products.",
             "homepage": "https://github.com/PrestaShop/welcome",
-            "time": "2017-07-11 08:16:29"
+            "time": "2017-07-11T08:16:29+00:00"
         },
         {
             "name": "psr/log",
-            "version": "1.0.2",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d"
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
-                "reference": "4ebe3a8bf773a19edfe0a84b6585ba3d401b724d",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/446d54b4cb6bf489fc9d75f55843658e6f25d801",
+                "reference": "446d54b4cb6bf489fc9d75f55843658e6f25d801",
                 "shasum": ""
             },
             "require": {
@@ -4456,7 +4464,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -4481,7 +4489,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2019-11-01T11:05:21+00:00"
         },
         {
             "name": "react/promise",
@@ -4527,7 +4535,7 @@
                 "promise",
                 "promises"
             ],
-            "time": "2017-03-25 12:08:31"
+            "time": "2017-03-25T12:08:31+00:00"
         },
         {
             "name": "sensio/distribution-bundle",
@@ -4587,7 +4595,7 @@
                 "configuration",
                 "distribution"
             ],
-            "time": "2017-01-04 13:34:44"
+            "time": "2017-01-04T13:34:44+00:00"
         },
         {
             "name": "sensio/framework-extra-bundle",
@@ -4642,7 +4650,7 @@
                 "annotations",
                 "controllers"
             ],
-            "time": "2015-08-03 11:59:27"
+            "time": "2015-08-03T11:59:27+00:00"
         },
         {
             "name": "sensiolabs/security-checker",
@@ -4686,7 +4694,7 @@
                 }
             ],
             "description": "A security checker for your composer.lock",
-            "time": "2017-03-29 09:29:53"
+            "time": "2017-03-29T09:29:53+00:00"
         },
         {
             "name": "shudrum/array-finder",
@@ -4726,7 +4734,7 @@
             ],
             "description": "ArrayFinder component",
             "homepage": "https://github.com/Shudrum/ArrayFinder",
-            "time": "2016-02-01 12:23:32"
+            "time": "2016-02-01T12:23:32+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -4780,7 +4788,7 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2017-05-01 15:54:03"
+            "time": "2017-05-01T15:54:03+00:00"
         },
         {
             "name": "symfony/monolog-bundle",
@@ -4839,20 +4847,20 @@
                 "log",
                 "logging"
             ],
-            "time": "2015-11-17 10:02:29"
+            "time": "2015-11-17T10:02:29+00:00"
         },
         {
             "name": "symfony/polyfill-apcu",
-            "version": "v1.4.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-apcu.git",
-                "reference": "2e7965b8cdfbba50d0092d3f6dca97dddec409e2"
+                "reference": "a8e961c841b9ec52927a87914f8820a1ad8f8116"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/2e7965b8cdfbba50d0092d3f6dca97dddec409e2",
-                "reference": "2e7965b8cdfbba50d0092d3f6dca97dddec409e2",
+                "url": "https://api.github.com/repos/symfony/polyfill-apcu/zipball/a8e961c841b9ec52927a87914f8820a1ad8f8116",
+                "reference": "a8e961c841b9ec52927a87914f8820a1ad8f8116",
                 "shasum": ""
             },
             "require": {
@@ -4861,10 +4869,13 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Apcu\\": ""
+                },
                 "files": [
                     "bootstrap.php"
                 ]
@@ -4892,25 +4903,83 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09 08:25:21"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
-            "name": "symfony/polyfill-intl-icu",
-            "version": "v1.4.0",
+            "name": "symfony/polyfill-ctype",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/symfony/polyfill-intl-icu.git",
-                "reference": "3191cbe0ce64987bd382daf6724af31c53daae01"
+                "url": "https://github.com/symfony/polyfill-ctype.git",
+                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/3191cbe0ce64987bd382daf6724af31c53daae01",
-                "reference": "3191cbe0ce64987bd382daf6724af31c53daae01",
+                "url": "https://api.github.com/repos/symfony/polyfill-ctype/zipball/f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+                "reference": "f8f0b461be3385e56d6de3dbb5a0df24c0c275e3",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.3"
+            },
+            "suggest": {
+                "ext-ctype": "For best performance"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.13-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Symfony\\Polyfill\\Ctype\\": ""
+                },
+                "files": [
+                    "bootstrap.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gert de Pagter",
+                    "email": "BackEndTea@gmail.com"
+                },
+                {
+                    "name": "Symfony Community",
+                    "homepage": "https://symfony.com/contributors"
+                }
+            ],
+            "description": "Symfony polyfill for ctype functions",
+            "homepage": "https://symfony.com",
+            "keywords": [
+                "compatibility",
+                "ctype",
+                "polyfill",
+                "portable"
+            ],
+            "time": "2019-11-27T13:56:44+00:00"
+        },
+        {
+            "name": "symfony/polyfill-intl-icu",
+            "version": "v1.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/symfony/polyfill-intl-icu.git",
+                "reference": "b3dffd68afa61ca70f2327f2dd9bbeb6aa53d70b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/symfony/polyfill-intl-icu/zipball/b3dffd68afa61ca70f2327f2dd9bbeb6aa53d70b",
+                "reference": "b3dffd68afa61ca70f2327f2dd9bbeb6aa53d70b",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.3",
-                "symfony/intl": "~2.3|~3.0|~4.0"
+                "symfony/intl": "~2.3|~3.0|~4.0|~5.0"
             },
             "suggest": {
                 "ext-intl": "For best performance"
@@ -4918,7 +4987,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -4950,20 +5019,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09 08:25:21"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "v1.4.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937"
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/f29dca382a6485c3cbe6379f0c61230167681937",
-                "reference": "f29dca382a6485c3cbe6379f0c61230167681937",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7b4aab9743c30be783b73de055d24a39cf4b954f",
+                "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f",
                 "shasum": ""
             },
             "require": {
@@ -4975,7 +5044,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -5009,20 +5078,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09 14:24:12"
+            "time": "2019-11-27T14:18:11+00:00"
         },
         {
             "name": "symfony/polyfill-php54",
-            "version": "v1.4.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php54.git",
-                "reference": "7dd1a8b9f0442273fdfeb1c4f5eaff6890a82789"
+                "reference": "dd1618047426412036e98d159940d58a81fc392c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/7dd1a8b9f0442273fdfeb1c4f5eaff6890a82789",
-                "reference": "7dd1a8b9f0442273fdfeb1c4f5eaff6890a82789",
+                "url": "https://api.github.com/repos/symfony/polyfill-php54/zipball/dd1618047426412036e98d159940d58a81fc392c",
+                "reference": "dd1618047426412036e98d159940d58a81fc392c",
                 "shasum": ""
             },
             "require": {
@@ -5031,7 +5100,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -5067,20 +5136,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09 08:25:21"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/polyfill-php55",
-            "version": "v1.4.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php55.git",
-                "reference": "94566239a7720cde0820f15f0cc348ddb51ba51d"
+                "reference": "b0d838f225725e2951af1aafc784d2e5ea7b656e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/94566239a7720cde0820f15f0cc348ddb51ba51d",
-                "reference": "94566239a7720cde0820f15f0cc348ddb51ba51d",
+                "url": "https://api.github.com/repos/symfony/polyfill-php55/zipball/b0d838f225725e2951af1aafc784d2e5ea7b656e",
+                "reference": "b0d838f225725e2951af1aafc784d2e5ea7b656e",
                 "shasum": ""
             },
             "require": {
@@ -5090,7 +5159,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -5123,20 +5192,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09 08:25:21"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/polyfill-php56",
-            "version": "v1.4.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php56.git",
-                "reference": "bc0b7d6cb36b10cfabb170a3e359944a95174929"
+                "reference": "53dd1cdf3cb986893ccf2b96665b25b3abb384f4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/bc0b7d6cb36b10cfabb170a3e359944a95174929",
-                "reference": "bc0b7d6cb36b10cfabb170a3e359944a95174929",
+                "url": "https://api.github.com/repos/symfony/polyfill-php56/zipball/53dd1cdf3cb986893ccf2b96665b25b3abb384f4",
+                "reference": "53dd1cdf3cb986893ccf2b96665b25b3abb384f4",
                 "shasum": ""
             },
             "require": {
@@ -5146,7 +5215,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -5179,30 +5248,30 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09 08:25:21"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/polyfill-php70",
-            "version": "v1.4.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-php70.git",
-                "reference": "032fd647d5c11a9ceab8ee8747e13b5448e93874"
+                "reference": "af23c7bb26a73b850840823662dda371484926c4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/032fd647d5c11a9ceab8ee8747e13b5448e93874",
-                "reference": "032fd647d5c11a9ceab8ee8747e13b5448e93874",
+                "url": "https://api.github.com/repos/symfony/polyfill-php70/zipball/af23c7bb26a73b850840823662dda371484926c4",
+                "reference": "af23c7bb26a73b850840823662dda371484926c4",
                 "shasum": ""
             },
             "require": {
-                "paragonie/random_compat": "~1.0|~2.0",
+                "paragonie/random_compat": "~1.0|~2.0|~9.99",
                 "php": ">=5.3.3"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -5238,20 +5307,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2017-06-09 14:24:12"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/polyfill-util",
-            "version": "v1.4.0",
+            "version": "v1.13.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-util.git",
-                "reference": "ebccbde4aad410f6438d86d7d261c6b4d2b9a51d"
+                "reference": "964a67f293b66b95883a5ed918a65354fcd2258f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/ebccbde4aad410f6438d86d7d261c6b4d2b9a51d",
-                "reference": "ebccbde4aad410f6438d86d7d261c6b4d2b9a51d",
+                "url": "https://api.github.com/repos/symfony/polyfill-util/zipball/964a67f293b66b95883a5ed918a65354fcd2258f",
+                "reference": "964a67f293b66b95883a5ed918a65354fcd2258f",
                 "shasum": ""
             },
             "require": {
@@ -5260,7 +5329,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4-dev"
+                    "dev-master": "1.13-dev"
                 }
             },
             "autoload": {
@@ -5290,7 +5359,7 @@
                 "polyfill",
                 "shim"
             ],
-            "time": "2017-06-09 08:25:21"
+            "time": "2019-11-27T13:56:44+00:00"
         },
         {
             "name": "symfony/security-acl",
@@ -5351,7 +5420,7 @@
             ],
             "description": "Symfony Security Component - ACL (Access Control List)",
             "homepage": "https://symfony.com",
-            "time": "2015-12-28 09:39:09"
+            "time": "2015-12-28T09:39:09+00:00"
         },
         {
             "name": "symfony/swiftmailer-bundle",
@@ -5408,27 +5477,29 @@
             ],
             "description": "Symfony SwiftmailerBundle",
             "homepage": "http://symfony.com",
-            "time": "2016-01-15 16:41:20"
+            "time": "2016-01-15T16:41:20+00:00"
         },
         {
             "name": "symfony/symfony",
-            "version": "v2.8.24",
+            "version": "v2.8.52",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/symfony.git",
-                "reference": "0ab3693b1154b1b166e98981ab3755636a5ae0e3"
+                "reference": "88f3ef62d6ab870128352c8686c7889562698faf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/symfony/zipball/0ab3693b1154b1b166e98981ab3755636a5ae0e3",
-                "reference": "0ab3693b1154b1b166e98981ab3755636a5ae0e3",
+                "url": "https://api.github.com/repos/symfony/symfony/zipball/88f3ef62d6ab870128352c8686c7889562698faf",
+                "reference": "88f3ef62d6ab870128352c8686c7889562698faf",
                 "shasum": ""
             },
             "require": {
                 "doctrine/common": "~2.4",
+                "ext-xml": "*",
                 "php": ">=5.3.9",
                 "psr/log": "~1.0",
                 "symfony/polyfill-apcu": "~1.1",
+                "symfony/polyfill-ctype": "~1.8",
                 "symfony/polyfill-intl-icu": "~1.0",
                 "symfony/polyfill-mbstring": "~1.0",
                 "symfony/polyfill-php54": "~1.0",
@@ -5492,6 +5563,7 @@
                 "symfony/yaml": "self.version"
             },
             "require-dev": {
+                "doctrine/annotations": "~1.0",
                 "doctrine/data-fixtures": "1.0.*",
                 "doctrine/dbal": "~2.4",
                 "doctrine/doctrine-bundle": "~1.2",
@@ -5501,7 +5573,7 @@
                 "ocramius/proxy-manager": "~0.4|~1.0|~2.0",
                 "phpdocumentor/reflection": "^1.0.7",
                 "sensio/framework-extra-bundle": "^3.0.2",
-                "symfony/phpunit-bridge": "~3.2"
+                "symfony/phpunit-bridge": "~3.4|~4.0"
             },
             "type": "library",
             "extra": {
@@ -5545,7 +5617,7 @@
             "keywords": [
                 "framework"
             ],
-            "time": "2017-07-05 08:53:15"
+            "time": "2019-11-13T08:36:42+00:00"
         },
         {
             "name": "tecnickcom/tcpdf",
@@ -5608,34 +5680,35 @@
                 "pdf417",
                 "qrcode"
             ],
-            "time": "2015-09-12 10:08:34"
+            "time": "2015-09-12T10:08:34+00:00"
         },
         {
             "name": "twig/twig",
-            "version": "v1.34.4",
+            "version": "v1.42.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "f878bab48edb66ad9c6ed626bf817f60c6c096ee"
+                "reference": "21707d6ebd05476854805e4f91b836531941bcd4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/f878bab48edb66ad9c6ed626bf817f60c6c096ee",
-                "reference": "f878bab48edb66ad9c6ed626bf817f60c6c096ee",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/21707d6ebd05476854805e4f91b836531941bcd4",
+                "reference": "21707d6ebd05476854805e4f91b836531941bcd4",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.3"
+                "php": ">=5.4.0",
+                "symfony/polyfill-ctype": "^1.8"
             },
             "require-dev": {
                 "psr/container": "^1.0",
-                "symfony/debug": "~2.7",
-                "symfony/phpunit-bridge": "~3.3@dev"
+                "symfony/debug": "^2.7",
+                "symfony/phpunit-bridge": "^3.4.19|^4.1.8|^5.0"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.34-dev"
+                    "dev-master": "1.42-dev"
                 }
             },
             "autoload": {
@@ -5664,16 +5737,16 @@
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "homepage": "https://twig.symfony.com/contributors",
                     "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
-            "homepage": "http://twig.sensiolabs.org",
+            "homepage": "https://twig.symfony.com",
             "keywords": [
                 "templating"
             ],
-            "time": "2017-07-04 13:19:31"
+            "time": "2019-06-18T15:35:16+00:00"
         }
     ],
     "packages-dev": [
@@ -5733,7 +5806,7 @@
                 }
             ],
             "description": "A tool to automatically fix PHP code style",
-            "time": "2016-12-01 00:05:05"
+            "time": "2016-12-01T00:05:05+00:00"
         },
         {
             "name": "phake/phake",
@@ -5791,7 +5864,7 @@
                 "mock",
                 "testing"
             ],
-            "time": "2017-03-20 05:16:34"
+            "time": "2017-03-20T05:16:34+00:00"
         },
         {
             "name": "phpdocumentor/reflection-docblock",
@@ -5840,7 +5913,7 @@
                     "email": "mike.vanriel@naenius.com"
                 }
             ],
-            "time": "2016-01-25 08:17:30"
+            "time": "2016-01-25T08:17:30+00:00"
         },
         {
             "name": "phpspec/prophecy",
@@ -5903,7 +5976,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2017-03-02 20:05:34"
+            "time": "2017-03-02T20:05:34+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -5965,7 +6038,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2015-10-06 15:47:00"
+            "time": "2015-10-06T15:47:00+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -6012,7 +6085,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2016-10-03 07:40:28"
+            "time": "2016-10-03T07:40:28+00:00"
         },
         {
             "name": "phpunit/php-text-template",
@@ -6053,7 +6126,7 @@
             "keywords": [
                 "template"
             ],
-            "time": "2015-06-21 13:50:34"
+            "time": "2015-06-21T13:50:34+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -6102,7 +6175,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2017-02-26 11:10:40"
+            "time": "2017-02-26T11:10:40+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -6151,7 +6224,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2017-02-27 10:12:30"
+            "time": "2017-02-27T10:12:30+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -6223,7 +6296,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2017-06-21 08:07:12"
+            "time": "2017-06-21T08:07:12+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -6279,7 +6352,8 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2015-10-02 06:51:40"
+            "abandoned": true,
+            "time": "2015-10-02T06:51:40+00:00"
         },
         {
             "name": "sebastian/comparator",
@@ -6343,7 +6417,7 @@
                 "compare",
                 "equality"
             ],
-            "time": "2017-01-29 09:50:25"
+            "time": "2017-01-29T09:50:25+00:00"
         },
         {
             "name": "sebastian/diff",
@@ -6395,7 +6469,7 @@
             "keywords": [
                 "diff"
             ],
-            "time": "2017-05-22 07:24:03"
+            "time": "2017-05-22T07:24:03+00:00"
         },
         {
             "name": "sebastian/environment",
@@ -6445,7 +6519,7 @@
                 "environment",
                 "hhvm"
             ],
-            "time": "2016-08-18 05:49:44"
+            "time": "2016-08-18T05:49:44+00:00"
         },
         {
             "name": "sebastian/exporter",
@@ -6512,7 +6586,7 @@
                 "export",
                 "exporter"
             ],
-            "time": "2016-06-17 09:04:28"
+            "time": "2016-06-17T09:04:28+00:00"
         },
         {
             "name": "sebastian/global-state",
@@ -6563,7 +6637,7 @@
             "keywords": [
                 "global state"
             ],
-            "time": "2015-10-12 03:26:01"
+            "time": "2015-10-12T03:26:01+00:00"
         },
         {
             "name": "sebastian/recursion-context",
@@ -6616,7 +6690,7 @@
             ],
             "description": "Provides functionality to recursively process PHP variables",
             "homepage": "http://www.github.com/sebastianbergmann/recursion-context",
-            "time": "2016-10-03 07:41:43"
+            "time": "2016-10-03T07:41:43+00:00"
         },
         {
             "name": "sebastian/version",
@@ -6651,7 +6725,7 @@
             ],
             "description": "Library that helps with managing the version number of Git-hosted PHP projects",
             "homepage": "https://github.com/sebastianbergmann/version",
-            "time": "2015-06-21 13:59:46"
+            "time": "2015-06-21T13:59:46+00:00"
         },
         {
             "name": "sensio/generator-bundle",
@@ -6699,7 +6773,7 @@
                 }
             ],
             "description": "This bundle generates code for you",
-            "time": "2015-03-17 06:36:52"
+            "time": "2015-03-17T06:36:52+00:00"
         },
         {
             "name": "symfony/phpunit-bridge",
@@ -6754,7 +6828,7 @@
             ],
             "description": "Symfony PHPUnit Bridge",
             "homepage": "https://symfony.com",
-            "time": "2017-01-21 17:01:39"
+            "time": "2017-01-21T17:01:39+00:00"
         }
     ],
     "aliases": [],
